@@ -4,13 +4,7 @@ import {
     subDays,
     eachDayOfInterval,
     startOfWeek,
-    endOfWeek,
-    isSameDay,
-    parseISO,
     fromUnixTime,
-    getDay,
-    startOfYear,
-    endOfYear,
     subYears
 } from 'date-fns';
 import { cn } from '@/lib/utils';
@@ -31,8 +25,7 @@ const LeetCodeHeatmap: React.FC<LeetCodeHeatmapProps> = ({ submissionCalendar })
 
     // Calculate Streak
     let currentStreak = 0;
-    let maxStreak = 0;
-    let tempStreak = 0;
+
 
     // Convert timestamps to date strings for easier processing
     const datesWithSubmissions = new Set(
@@ -69,13 +62,7 @@ const LeetCodeHeatmap: React.FC<LeetCodeHeatmapProps> = ({ submissionCalendar })
 
     const days = eachDayOfInterval({ start: gridStartDate, end: endDate });
 
-    const getColor = (count: number) => {
-        if (count === 0) return "bg-muted/20 dark:bg-muted/10";
-        if (count <= 3) return "bg-green-900/40 dark:bg-green-900/40 border border-green-800/50";
-        if (count <= 6) return "bg-green-700/60 dark:bg-green-700/60 border border-green-600/50";
-        if (count <= 10) return "bg-green-500/80 dark:bg-green-500/80 border border-green-400/50";
-        return "bg-green-400 dark:bg-green-400 border border-green-300";
-    };
+
 
     // Using user's preference for Red/Orange if requested?
     // The user uploaded an image with RED theme. Let's try to adapt to a generic theme that looks good, 
@@ -121,7 +108,7 @@ const LeetCodeHeatmap: React.FC<LeetCodeHeatmapProps> = ({ submissionCalendar })
                                 if (!day || day > endDate) return <div key={dayIndex} className="w-3 h-3" />;
 
                                 const dateStr = format(day, 'yyyy-MM-dd');
-                                const dateTimestamp = Number(format(day, 't'));
+
                                 // We need to match precise timestamp keys or just date string matching?
                                 // Leetcode uses epoch timestamps. Since we can't match exact seconds, 
                                 // we sum up counts for that day.

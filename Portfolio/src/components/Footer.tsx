@@ -56,7 +56,7 @@ const Footer: React.FC<{ resumeLink: string }> = ({ resumeLink }) => {
             viewport={{ amount: 0.5 }}
             className="font-dancing-script text-lg max-sm:text-base font-bold text-muted-foreground mt-1 text-center"
           >
-            " The best way to predict the future is to create it. "
+            &quot; The best way to predict the future is to create it. &quot;
           </motion.blockquote>
         </div>
       </section>
