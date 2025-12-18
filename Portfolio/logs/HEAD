@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 d9e4841b1f5d51f97b57ccc284bc0e35a50505a6 Hari Prasad <hariprasadchinimilli18@gmail.com> 1765393179 +0530	commit (initial): Initial commit - Portfolio project
+d9e4841b1f5d51f97b57ccc284bc0e35a50505a6 0000000000000000000000000000000000000000 Hari Prasad <hariprasadchinimilli18@gmail.com> 1765393180 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 d9e4841b1f5d51f97b57ccc284bc0e35a50505a6 Hari Prasad <hariprasadchinimilli18@gmail.com> 1765393180 +0530	Branch: renamed refs/heads/master to refs/heads/main
+d9e4841b1f5d51f97b57ccc284bc0e35a50505a6 e7eff7f3a90f549e32ec02f56286f5b682adfa48 Hari Prasad <hariprasadchinimilli18@gmail.com> 1765393410 +0530	commit: Clean up .gitignore - remove unnecessary parent directory paths
+e7eff7f3a90f549e32ec02f56286f5b682adfa48 3c11c5500033fc48bf85a8126efd9fdc46135bff Hari Prasad <hariprasadchinimilli18@gmail.com> 1765394211 +0530	commit: Add icons for skills: C, Java, JavaScript, React, Node, Express, REST APIs, TensorFlow, Git
