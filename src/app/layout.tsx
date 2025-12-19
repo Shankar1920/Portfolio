@@ -27,7 +27,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Hari Prasad — Portfolio",
+  title: "Chitrada Durga Gowri Sankar — Portfolio",
   description: "Aspiring AI & ML Engineer with experience in Python, AI/ML, and building practical generative AI solutions.",
   icons: {
     icon: '/icon.png',
@@ -68,9 +68,9 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "Person",
             "@id": "http://localhost:3000/#person",
-            "name": "Hari Prasad",
+            "name": "Chitrada Durga Gowri Sankar",
             "description": "Aspiring AI & ML Engineer and Prompt Engineer",
-            "image": "/image.png",
+            "image": "/sankar.jpg",
             "url": "http://localhost:3000",
             "sameAs": [
               "https://github.com/Shankar1920",
@@ -93,8 +93,8 @@ export default function RootLayout({
             "@type": "WebSite",
             "@id": "http://localhost:3000/#website",
             "url": "http://localhost:3000",
-            "name": "Hari Prasad Portfolio",
-            "description": "Portfolio of Hari Prasad — Aspiring AI & ML Engineer / Prompt Engineering",
+            "name": "Chitrada Durga Gowri Sankar Portfolio",
+            "description": "Portfolio of Chitrada Durga Gowri Sankar — Aspiring AI & ML Engineer / Prompt Engineering",
             "publisher": {
               "@id": "http://localhost:3000/#person"
             }

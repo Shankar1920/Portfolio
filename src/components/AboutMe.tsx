@@ -47,8 +47,8 @@ const AboutMe = ({ stats, totalAvailable, totalQuestions, recentSubmissions, sub
     >
       <div className="flex-shrink-0 relative w-[400px] h-[400px] max-sm:w-[300px] max-sm:h-[300px]">
         <Image
-          src="/image.png"
-          alt="Hari Prasad"
+          src="/sankar.jpg"
+          alt="Chitrada Durga Gowri Sankar"
           width={400}
           height={400}
           className="object-cover transition-all duration-500 rounded-full aspect-square border-4 border-primary/20 shadow-lg"
@@ -69,7 +69,7 @@ const AboutMe = ({ stats, totalAvailable, totalQuestions, recentSubmissions, sub
             transition: { duration: 0.2 }
           }}
         >
-          Hari Prasad
+          Chitrada Durga Gowri Sankar
         </motion.h1>
         <motion.h2
           className="text-2xl max-sm:text-xl font-semibold text-primary/80"

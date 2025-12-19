@@ -28,8 +28,8 @@ const Footer: React.FC<{ resumeLink: string }> = ({ resumeLink }) => {
         >
           <div className="w-[60px] h-[60px] rounded-full overflow-hidden border-2 border-primary/20 shadow-lg">
             <NextImage
-              src="/image.png"
-              alt="Hari Prasad"
+              src="/sankar.jpg"
+              alt="Chitrada Durga Gowri Sankar"
               width={60}
               height={60}
               className="object-cover w-full h-full"
@@ -46,7 +46,7 @@ const Footer: React.FC<{ resumeLink: string }> = ({ resumeLink }) => {
             viewport={{ amount: 0.5 }}
             className="font-bold text-xl max-sm:text-lg text-center leading-tight"
           >
-            Hari Prasad <span className="hidden sm:inline">|</span> <span className="block sm:inline">Aspiring AI & ML Engineer</span>
+            Chitrada Durga Gowri Sankar <span className="hidden sm:inline">|</span> <span className="block sm:inline">Aspiring AI & ML Engineer</span>
           </motion.h3>
 
           <motion.blockquote
