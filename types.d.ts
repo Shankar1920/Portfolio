@@ -58,8 +58,8 @@ interface LeetCodeResponse {
           count: number;
           submissions: number;
         }[];
-        submissionCalendar: string;
       };
+      submissionCalendar: string;
       problemsSolvedBeatsStats: {
         difficulty: string;
         percentage: number;
